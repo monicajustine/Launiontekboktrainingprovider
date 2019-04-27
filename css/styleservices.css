@@ -1,0 +1,164 @@
+.logo{
+background-image: url(../images/logo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+height: 55vh;
+margin-bottom: 10px;
+background-color: green;
+}
+
+.navi {
+	padding:5px;
+	margin: 10px;
+  background: green;
+	background-color: white;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 10px;
+	grid-gap: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.menu li {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+}
+li:hover {
+	background: white;
+	color: green;
+	font: arial;
+}
+.home {
+	background:green;
+	color: white;
+	font-family: Verdana;
+	list-style:none;
+	padding:20px;
+	font-size: 20px;
+	text-align: center;
+}
+.services {
+	background:green;
+	color: white;
+	font-family: Verdana;
+	list-style:none;
+	padding:20px;
+	font-size: 20px;
+	text-align: center;
+}
+.photos {
+	background:green;
+	color: white;
+	font-family: Verdana;
+	list-style:none;
+	padding:20px;
+	font-size: 20px;
+	text-align: center;
+}
+.contact {
+	background:green;
+	color: white;
+	font-family: Verdana;
+	list-style:none;
+	padding:20px;
+	font-size: 20px;
+	text-align: center;
+}
+.about {
+  padding: 30px;
+  height: 15vh;
+  background: green;
+  margin: 10px;
+  grid-gap:10px;
+}
+
+.about-text {
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 10px;
+}
+
+.box {
+	background:green;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 3px;
+	height: 100vh;
+}
+
+.first{
+	margin: 20px;
+	background-image: url(../images/1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.second{
+	margin: 20px;
+	background-image: url(../images/2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.third{
+	margin: 20px;
+	background-image: url(../images/3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.fourth{
+	margin: 20px;
+	background-image: url(../images/4.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.fifth{
+	margin: 20px;
+	background-image: url(../images/5.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sixth{
+	margin: 20px;
+	background-image: url(../images/6.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footer{
+  padding:2px;
+  height: 10vh;
+  background-color: white;
+	background: green;
+  color:white;
+  font-family: Verdana;
+  text-align: center;
+  margin: 10px;
+  grid-gap:10px;
+}
+.p2{
+	text-align: justify;
+	padding: 10px;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Garamond;
+}
